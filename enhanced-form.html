@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>Enhanced Html Elements</title>
+    </header>
+    <body>
+        <h1>Enhanced HTML Elements</h1>
+        <h2>Definition List of Kenyan Universities</h2>
+        <d1>
+            <dt>UON</dt>
+            <dd>University of Nairobi</dd>
+            <dt>KU</dt>
+            <dd>Kenyatta University</dd>
+            <dt>JKUAT</dt>
+            <dd>Jomo Kenyatta University of Agriculture and Technology</dd>
+        </d1>
+        <h2>Means of Transport used By Students</h2>
+        <ol type="I">
+            <li>Motorvehicles
+            <ul>
+                <li>University bus</li>
+                <li>Matatus</li>
+                <li>Personal Cars</li>
+            </ul>
+            </li>
+            <li>Motorbikes
+            <ul>
+                <li>Yamaha</li>
+                <li>Kawasaki</li>
+                <li>Honda</li>
+            </ul>
+            </li>
+            <li>Other Rare Means
+            <ul>
+                <li>Helicopters</li>
+                <Li>Trains</Li>
+                <li>Bicycles</li>
+            </ul>
+            </li>
+        
+        </ol>
+
+        <h2>Take a Look</h2>
+        <h3>Courses offerred</h3>
+        <img src="pexels-divinetechygirl-1181677.jpg" 
+        alt="Computer Science" width="300" height="200">
+
+        <img src="pexels-chokniti-khongchum-1197604-2280571.jpg" alt="Health Sciences" width="300" height="200">
+        <h3>Sample Music from some of our students</h3>
+
+        <audio controls>
+            <source src="Benson Boone - Beautiful Things (Official Music Video) [Oa_RSwwpPaA].mp3">
+        </audio>
+
+        <h3>Students in Action</h3>
+        <video width="600" height="300" controls>
+            <source src="6209575-uhd_2732_1440_25fps.mp4" type="video/mp4">
+        </video>
+
+        <h2>Faculty Heads</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>NAME</th>
+                    <th>Gender</th>
+                    <th>Faculty</th>
+                     
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Prof. Muriithi</td>
+                    <td>Female</td>
+                    <td>Law</td>
+                </tr>
+                 <tr>
+                    <td>Dr. Kidake</td>
+                    <td>Male</td>
+                    <td>Social Sciences</td>
+                </tr>
+                <tr>
+                    <td>Dr. Mutunga</td>
+                    <td>Male</td>
+                    <td>Engineering</td>
+                </tr>
+                <tr>
+                    <td>Prof. Waithatka</td>
+                    <td>Female</td>
+                    <td>Health Sciences</td>
+                </tr>
+            </tbody>
+        </table>
+       <h2>For First Time Applicants</h2>
+       <form action ="https://example.com/submit" method="post">
+         <fieldset>
+    <legend>Personal Information</legend>
+        <label for="name">Name:</label> 
+        <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="on">
+        <br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="user@example.com" autocomplete="on">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter Password" autocomplete="on">
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="Male" name="gender" value="Male">Male 
+        <input type="radio" id="Female" name="gender" value="Female">Female
+        <input type="radio" id="Prefer not to say" name="gender" value="Prefer not to say">Prefer not to say
+        <br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="">--Select country--</option>
+            <option value="Kenya">Kenya</option>
+            <option value="Uganda">Uganda</option>
+            <option value="Tanzania">Tanzania</option>
+            <option value="Other">Other</option>
+        </select>
+    </fieldset>
+        <br><br>
+        <h3>ESSAY(50-100 characters)</h3>
+
+        <label for="comments">Why Should we pick you:</label>
+        <textarea id="comments" name="comments" rows="6" cols="50" maxlength="100" minlength="50"></textarea>
+        <br><br>
+
+        <input type="submit" value="Submit">
+        <br><br>
+
+       <h2>Enter Zip code sent to your email after Submission</h2>
+            <input type="text" name="zip" pattern="[0-9]{5}" title="Enter a 5-digit zip code" placeholder="12345">
+            <br><br>
+            <button type="submit">Submit</button>
+        <br><br>
+       </form> 
+    </body>
+
+</html>
